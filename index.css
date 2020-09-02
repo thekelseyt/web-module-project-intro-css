@@ -119,7 +119,7 @@ nav {
     margin: 3%;
 }
 
-#buttons a {
+nav a {
     display: inline-block;
     width: 10%;
     height: 10px;
@@ -140,4 +140,12 @@ nav {
 
 .involved {
     background: yellow;
+}
+
+#title {
+    display: inline-block;
+}
+
+#top-box {
+    background: salmon;
 }
