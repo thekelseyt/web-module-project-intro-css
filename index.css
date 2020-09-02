@@ -115,37 +115,121 @@ q {
     quotes: "" "";
 }
 
-nav {
-    margin: 3%;
+
+/*beginning of my own CSS after reset*/
+
+* {
+    box-sizing: border-box;
 }
 
-nav a {
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.5rem;
+    line-height: 2;
+    font-family: 'Roboto Mono', monospace;
+    width: 70%;
+}
+
+p {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono&display=swap');
+.visit {
+    background: #FF764E;
+}
+
+.about {
+    background: #5ED3EB;
+}
+
+.involved {
+    background: #FFCD69;
+}
+
+.visit,
+.about,
+.involved {
     display: inline-block;
-    width: 10%;
-    height: 10px;
-    padding: 5%;
+    width: 15%;
+    height: 15px;
+    padding: 3% 5% 3% 5%;
     border-radius: 10px;
-    margin: 5%;
+    margin: 1% 8% 1% 8%;
+    align-content: center;
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
+    color: white;
+}
+
+#title {
+    padding: 5%;
+    margin: 0 auto;
+    display: inline-block;
+    width: 100%;
+}
+
+#title img {
+    border-radius: 50%;
+    width: 70%
+}
+
+#top-image {
+    display: inline-block;
+    width: 30%;
+}
+
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 6rem;
+}
+
+#text {
+    display: inline-block;
+    width: 60%;
+    text-align: center;
+}
+
+#top-box {
+    background: #DDB9A3;
+    padding: 2%;
+    margin: 2%;
     color: white;
     text-align: center;
 }
 
-.visit {
-    background: orange;
+#fire-icon img,
+#camper-icon img {
+    width: 10%;
+    margin: 0 45%;
 }
 
-.about {
-    background: blue;
+#fire-icon p,
+#camper-icon p {
+    width: 25%;
+    margin: 1% 37.5% 5% 37.5%;
+    text-align: center;
+    font-size: 1.3rem;
 }
 
-.involved {
-    background: yellow;
+#fire-icon span,
+#camper-icon span {
+    font-weight: bolder;
 }
 
-#title {
-    display: inline-block;
+footer img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: top center;
 }
 
-#top-box {
-    background: salmon;
+footer {
+    background: #F9E7DC
 }
